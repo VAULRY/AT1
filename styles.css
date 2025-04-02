@@ -9,8 +9,16 @@ body {
     background: linear-gradient(135deg, #48c6ef, #6f86d6);
     color: white;
 }
+#formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
 
-h2 { text-align: center; 
+h1 { text-align: center; 
     margin-bottom: 20px; 
 }
 form { display: flex; 
@@ -24,7 +32,7 @@ input { padding: 10px;
     border: none; 
     border-radius: 5px; 
 }
-.btn {
+.button {
     padding: 10px;
     font-size: 1em;
     background-color: #6f86d6;
@@ -34,6 +42,6 @@ input { padding: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-.btn:hover { 
+.button:hover { 
     background-color: #48c6ef; 
 }
