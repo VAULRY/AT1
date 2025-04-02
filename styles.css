@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #48c6ef, #6f86d6);
+    color: white;
+}
+
+h2 { text-align: center; 
+    margin-bottom: 20px; 
+}
+form { display: flex; 
+    flex-direction: column; 
+}
+label { font-weight: bold; 
+    margin-bottom: 5px; 
+}
+input { padding: 10px; 
+    margin-bottom: 15px; 
+    border: none; 
+    border-radius: 5px; 
+}
+.btn {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #6f86d6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn:hover { 
+    background-color: #48c6ef; 
+}
